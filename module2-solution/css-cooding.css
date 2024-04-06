@@ -1,0 +1,70 @@
+* {
+    padding:0px ;
+    margin:0px;
+    box-sizing:border-box;
+}
+
+body{
+    padding: 30px;
+}
+
+h1 , .p1, .p2, .p3{
+    text-align :center;
+    font-weight: bold;
+}
+
+div{
+    
+    padding:  35px 10px 10px 10px ;
+    margin: 15px; 
+    border: 2px solid black;  
+    float: left;
+    background-color: rgb(143, 140, 140);
+    position: relative;
+    width: 98%;
+}
+.div1,.div2,.div3{
+    width: 98%;
+
+}
+
+.p1, .p2, .p3{
+  padding:5px 15px 5px 15px ;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border: 1px solid black;  
+}
+
+.p1{
+    background-color: rgb(248, 149, 240);
+} 
+.p2{
+    background-color: rgb(147, 123, 255);
+} 
+.p3{
+    background-color: rgb(255, 145, 145);
+}
+@media (min-width:992px) {
+    .div2,.div1,.div3{
+        float: left;
+        width: 30%;
+        }
+}
+
+@media  (min-width:768px) and (max-width:992px)   {
+    .div3{
+        width: 96%;
+    }
+
+    .div2,.div1{
+        width: 46%;
+    }
+}
+
+
+
+
+
+
+
